@@ -1,4 +1,6 @@
-# chooz
+# Chooz
+
+![alt text](https://raw.githubusercontent.com/Maximeesilv/Chooz/develop/wink.png)
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
