@@ -1,0 +1,9 @@
+
+<h1 class="title">Chooz: {{main.countElements}}</h1>
+<h1 class="title" ng-show="main.isHappy">{{main.result}}</h1>
+<chooz-guy ng-click="main.getResult()" is-happy="main.isHappy" class="choozGuy"></chooz-guy>
+<form class="footer-input">
+  <input class="user-chooz" placeholder="Vodka Gin..." autofocus ng-model="main.userInput" ng-show="!main.isHappy"></input>
+  <button class="but" type="submit" ng-click="main.addUserChooz()"> <i class="fa fa-plus-circle" aria-hidden="true" ng-show="!main.isHappy"></i> </button>
+  <button class="but" type="" ng-click="main.cleanChooz(false)"> <i class="fa fa-refresh" aria-hidden="true"></i> </button>
+</form>

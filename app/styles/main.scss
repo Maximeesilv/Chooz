@@ -1,0 +1,69 @@
+@import "vars";
+
+@font-face {
+  font-family: "chooz";
+  src: url("monster shadow.ttf");
+}
+
+body {
+  font-family: "Helvetica";
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: $color-primary-4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  .title {
+    font-family: "chooz";
+    color: $color-secondary-1;
+    font-size: 3em;
+  }
+}
+
+.footer-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%;
+  background-color: transparent;
+}
+
+.user-chooz {
+  font-size: 1em;
+  padding: 1em;
+  border: none;
+  border-radius: .8em;
+  background: $color-primary-4;
+  color: $color-secondary-0;
+  &:focus {
+    border: none;
+    color: $color-secondary-1;
+  }
+}
+
+.choozGuy {
+  margin: auto;
+  font-size: 5em;
+}
+
+.but {
+  background: transparent;
+  color: $rgba-secondary-1;
+  font-size: 2em;
+  border: none;
+  border-radius: 100%;
+  &:active {
+    color: $rgba-secondary-2;
+    transform: rotateZ(360deg);
+    transition: 1s;
+  }
+}

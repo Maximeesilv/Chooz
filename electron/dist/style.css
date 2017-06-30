@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'minicon';
+  src:  url('fonts/minicon.eot?qx2icu');
+  src:  url('fonts/minicon.eot?qx2icu#iefix') format('embedded-opentype'),
+    url('fonts/minicon.ttf?qx2icu') format('truetype'),
+    url('fonts/minicon.woff?qx2icu') format('woff'),
+    url('fonts/minicon.svg?qx2icu#minicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mini"], [class*=" mini"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'minicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.miniscared .path1:before {
+  content: "\e900";
+  color: rgb(255, 219, 43);
+}
+.miniscared .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(229, 126, 37);
+}
+.miniscared .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.miniscared .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(85, 96, 128);
+}
+.miniscared .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.miniscared .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(85, 96, 128);
+}
+.miniscared .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(254, 199, 34);
+}
+.miniscared .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(127, 110, 93);
+}
+.miniwink .path1:before {
+  content: "\e908";
+  color: rgb(127, 110, 93);
+}
+.miniwink .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 219, 43);
+}
+.miniwink .path3:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(229, 126, 37);
+}
+.miniwink .path4:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(229, 126, 37);
+}
+.miniwink .path5:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(229, 126, 37);
+}
+.miniwink .path6:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(240, 196, 25);
+}
+.miniwink .path7:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.miniwink .path8:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(85, 96, 128);
+}
+.miniwink .path9:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(254, 199, 34);
+}
