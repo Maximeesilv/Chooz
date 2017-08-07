@@ -26,7 +26,7 @@ angular.module('choozApp')
     }
 
     ctrl.getResult = function() {
-      if(ctrl.isHappy) return;
+      if(ctrl.isHappy) window.location.reload();
       ctrl.result = ctrl.userChooz[Math.floor(Math.random()*ctrl.userChooz.length)];
       ctrl.countElements = ctrl.userChooz.length;
       ctrl.isHappy = true;
